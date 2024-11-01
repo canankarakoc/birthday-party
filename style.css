@@ -46,10 +46,13 @@ input, textarea {
   padding: 8px;
   border-radius: 4px;
 }
+
 body {
-  background-image: url('/assets/images/background.jpg'); /* Make sure this path matches exactly */
-  background-size: cover;
-  background-attachment: fixed;
+  background-image: url('/assets/images/background.jpg'); /* Path to the background image */
+  background-color: rgba(0, 0, 0, 0.5); /* Dark overlay color */
+  background-blend-mode: overlay; /* Blends the overlay with the background image */
+  background-size: cover; /* Ensures the image covers the entire screen */
+  background-attachment: fixed; /* Keeps the image in place during scrolling */
   background-repeat: no-repeat;
   color: #e0e0e0;
   font-family: Arial, sans-serif;
@@ -58,11 +61,6 @@ body {
   padding: 0;
 }
 
-
-body {
-  background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
-  background-blend-mode: overlay; /* Blends the overlay with the image */
-}
 
 /* Style each form group to stack vertically */
 .form-group {
