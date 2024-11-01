@@ -46,3 +46,20 @@ input, textarea {
   padding: 8px;
   border-radius: 4px;
 }
+
+body {
+  background-image: url('/assets/images/background.jpeg'); /* Path to your image */
+  background-size: cover; /* Ensures the image covers the entire screen */
+  background-attachment: fixed; /* Makes the image stay in place when scrolling */
+  background-repeat: no-repeat;
+  color: #e0e0e0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+  background-blend-mode: overlay; /* Blends the overlay with the image */
+}
