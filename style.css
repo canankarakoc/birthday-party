@@ -1,0 +1,48 @@
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  padding: 20px;
+  color: #ffffff;
+}
+
+section {
+  margin: 20px auto;
+  padding: 10px;
+  max-width: 600px;
+  background-color: #1e1e1e;
+  border-radius: 8px;
+}
+
+h1, h2 {
+  color: #ffde59;
+}
+
+a {
+  color: #ffde59;
+  text-decoration: none;
+}
+
+button {
+  background-color: #ffde59;
+  border: none;
+  color: #121212;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+input, textarea {
+  background-color: #333;
+  color: #e0e0e0;
+  border: 1px solid #555;
+  padding: 8px;
+  border-radius: 4px;
+}
