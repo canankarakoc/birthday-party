@@ -48,7 +48,7 @@ input, textarea {
 }
 
 body {
-  background-image: url('/assets/images/background.jpeg'); /* Path to your image */
+  background-image: url('/assets/images/background.jpg'); /* Path to your image */
   background-size: cover; /* Ensures the image covers the entire screen */
   background-attachment: fixed; /* Makes the image stay in place when scrolling */
   background-repeat: no-repeat;
@@ -62,4 +62,25 @@ body {
 body {
   background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
   background-blend-mode: overlay; /* Blends the overlay with the image */
+}
+
+/* Style each form group to stack vertically */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  width: 100%;
+  background-color: #333;
+  color: #e0e0e0;
+  border: 1px solid #555;
+  padding: 8px;
+  border-radius: 4px;
 }

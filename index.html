@@ -18,20 +18,22 @@
       <p><a href="https://drive.google.com/drive/folders/1G4zW6M9g2CZX93de9uqq7178TS7qzTkZ?usp=drive_link" target="_blank">Upload photos here</a></p>
     </section>
 
+    <section id="messages">
+      <h2>Leave a Message</h2>
+      <form action="https://formspree.io/f/mjkvyrkv" method="POST">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
 
-  <!-- Message Form -->
-  <section id="messages">
-    <h2>Leave a Message</h2>
-    <form action="https://formspree.io/f/mjkvyrkv" method="POST">
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required>
-      <label for="message">Message:</label>
-      <textarea id="message" name="message" rows="4" required></textarea>
-      <button type="submit">Send Message</button>
-    </form>
-  </section>
-</body>
-</html>
+
 
 <!-- Spotify Playlist -->
 <section id="playlist">
