@@ -1,5 +1,10 @@
 body {
-  background-color: #121212;
+  background-image: url('https://canankarakoc.github.io/birthday-party/assets/images/background.jpg');
+  background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   color: #e0e0e0;
   font-family: Arial, sans-serif;
   text-align: center;
@@ -40,25 +45,12 @@ button {
 }
 
 input, textarea {
+  width: 100%;
   background-color: #333;
   color: #e0e0e0;
   border: 1px solid #555;
   padding: 8px;
   border-radius: 4px;
-}
-
-body {
-  background-image: url('https://canankarakoc.github.io/birthday-party/assets/images/background.jpg');
-  background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
-  background-blend-mode: overlay;
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  color: #e0e0e0;
-  font-family: Arial, sans-serif;
-  text-align: center;
-  margin: 0;
-  padding: 0;
 }
 
 /* Style each form group to stack vertically */
@@ -71,13 +63,4 @@ body {
 
 label {
   margin-bottom: 5px;
-}
-
-input, textarea {
-  width: 100%;
-  background-color: #333;
-  color: #e0e0e0;
-  border: 1px solid #555;
-  padding: 8px;
-  border-radius: 4px;
 }
