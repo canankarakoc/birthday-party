@@ -24,6 +24,7 @@ section {
   max-width: 600px;
   background-color: #1e1e1e;
   border-radius: 8px;
+  box-sizing: border-box; /* Add this line */
 }
 
 h1, h2 {
@@ -51,6 +52,7 @@ input, textarea {
   border: 1px solid #555;
   padding: 8px;
   border-radius: 4px;
+  box-sizing: border-box; /* Add this line */
 }
 
 /* Style each form group to stack vertically */
