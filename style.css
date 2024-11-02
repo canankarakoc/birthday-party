@@ -36,6 +36,13 @@ a {
   text-decoration: none;
 }
 
+.small-preview {
+  display: block;
+  margin: 10px auto;
+  max-width: 100px; /* Adjust the size as needed */
+  border-radius: 4px;
+}
+
 button {
   background-color: #ffde59;
   border: none;
